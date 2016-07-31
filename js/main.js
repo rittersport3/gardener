@@ -18,7 +18,6 @@ eon.chart({
         type: 'timeseries',
         tick: {
           format: '%H:%m:%S',
-          fit: true
         },
         label: {
           text: 'Tempo',
@@ -33,7 +32,7 @@ eon.chart({
         min: 0,
       }},
   },
-  limit: 10000,
+  limit: 1000,
   });
 
 eon.chart({
