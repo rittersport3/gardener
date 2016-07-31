@@ -39,7 +39,7 @@ eon.chart({
   channel: "tension",
   history: true,
   pubnub: pubnub,
-  limit: 100,
+  limit: 1000,
   generate: {
     bindto: '#tension',
     data: {
