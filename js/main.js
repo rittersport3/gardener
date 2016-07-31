@@ -32,7 +32,7 @@ eon.chart({
         min: 0,
       }},
   },
-  limit: 1000,
+  limit: 10000,
   });
 
 eon.chart({
